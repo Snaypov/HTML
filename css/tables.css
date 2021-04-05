@@ -1,0 +1,26 @@
+
+.tables{
+    width: 100%;
+    border: 2px solid black;
+    display: inline-flex;
+}
+
+.list{
+    width: 20%;
+    border: 1px solid black;
+}
+
+.description{
+    width: 60%;
+    border: 1px solid black;
+}
+
+li{
+    margin-left: 10%;
+    text-align: left;
+}
+
+.tablerows{
+    width: 20%;
+    border: 1px solid black;
+}

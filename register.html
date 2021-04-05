@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="process_reg.aspx" method="POST" enctype="multipart/form-data">
+        <div class="main_reg">
+            <div class="font_reg">
+                <table>
+                    <tr>
+                        <td><label for="user_Login">Login:</label></td>
+                        <td><input type="text" name="user_Login" id="user_Login"  placeholder="enter login"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="user_Password">Password:</label></td>
+                        <td><input type="password" name="user_Password" id="user_Password" placeholder="enter password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="user_name">Name:</label></td>
+                        <td><input type="text" name="user_name" id="user_name" placeholder="enter name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Sex:</label></td>
+                        <td>
+                            <label for="gender_male">M</label>
+                            <input type="radio" name="gender" id="gender_male" value="male" checked="checked">
+                            <label for="gender_female">F</label>
+                            <input type="radio" name="gender" id="gender_female" value="female" checked="checked">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tech:</td>
+                        <td>
+                            C++:&nbsp;<input type="checkbox" name="tech_c" value="1">
+                            C#:&nbsp;<input type="checkbox" name="tech_c#" value="2">
+                            SQL:&nbsp;<input type="checkbox" name="tech_sql" value="3">
+                            HTML_:&nbsp;<input type="checkbox" name="tech_html" value="4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>City:</label>
+                        </td>
+                        <td>
+                            <select name="user_city" id="user_city">
+                                <option value="1">Zaporozhye</option>
+                                <option value="2">Kiev</option>
+                                <option value="3">Dnepr</option>
+                                <option value="4">Kharkov</option>
+                                <option value="5">Zhytomyr</option>
+                                <option value="6">Lviv</option>
+                                <option value="7">Donetzk</option>
+                                <option value="8">Krivoi Rog</option>
+                                <option value="9">Mariupol</option>
+                                <option value="10">Vinniza</option>
+                                <option value="11">Kherson</option>
+                                <option value="12">Chernigov</option>
+                                <option value="13">Poltava</option>
+                                <option value="14">Cherkasi</option>
+                                <option value="15">Khmelnitski</option>
+                                <option value="16">Chernovtsi</option>
+                                <option value="17">Symmu</option>
+                                <option value="18">Rovno</option>
+                                <option value="19">Ivano-Frankovsk</option>
+                                <option value="20">Lutsk</option>
+                                <option value="21">Ternopil</option>
+                                <option value="22">Uzhgorod</option>
+                                <option value="23">Nikolaev</option>
+                                <option value="24">Berdyansk</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Resume:</label></td>
+                        <td>
+                            <input type="file" name="user_cv">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Salary</label>
+                        </td>
+                        <td>
+                            <input type="range" min="7" max="999" name="user_sal">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Birth Date</label>
+                        </td>
+                        <td>
+                            <input type="date" name="user_bd" id="user_bd">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="user_time">Time:</label>
+                        </td>
+                        <td>
+                            <input type="time" name="user_time" id="user_time">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Clear Form</label>
+                        </td>
+                        <td>
+                            <input type="reset">
+                        </td>
+                    </tr>
+                </table>
+
+                <input type="hidden" name="a" id="1">
+                <input type="hidden" name="b" id="2">
+                <input type="hidden" name="c" id="3">
+
+                <input style="font-size: 20px; font-weight: bold; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width: 100px;" type="submit" value="Register" onclick="location.href='./login.html'">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

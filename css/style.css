@@ -1,0 +1,34 @@
+    img{
+        width: 317px;
+        height: 205px;
+    }
+
+    .header{
+        width: 20%;
+        margin-left: 5%;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        opacity: 0.5;
+    }
+    
+    #user_login{
+        background-color: transparent;
+        color: white;
+    }
+
+    #user_reg{
+        background-color: transparent;
+        color: white;
+    }
